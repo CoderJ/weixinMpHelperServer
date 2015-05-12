@@ -1,0 +1,71 @@
+{
+            "title": {
+                "name": "标题",
+                "code":[
+                  "<h3 class='bfcolor' style='margin: 20px 0px 10px; padding: 0px 10px; font-weight: 400; font-size: 16px; max-width: 100%; white-space: normal; font-family: 微软雅黑; border-width: 0px 0px 0px 2px; color: rgb(239, 95, 0); border-color: rgb(239, 95, 0); border-style: solid; line-height: 1.5em; -webkit-font-smoothing: antialiased; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);'>请把这里替换成标题</h3>"
+                  ]
+            },
+            "quote": {
+                "name": "引用",
+                "code" : [
+                "<section style=''><section style='margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; background-image: url(http://mmbiz.qpic.cn/mmbiz/HOZE1XLnBLS61ZWZRL2fm4mqvN7CKtjtYSxMg3uEoVvoVzOWe5eiaxU0UaosuUJRjQyxmiacst2WYlgMo2B9iawibQ/0); background-color: rgb(250, 250, 250); background-size: 30px 30px; background-position: 10px 6px; background-repeat: no-repeat;'><section style='margin: 0px; padding: 15px; max-width: 100%; font-size: 14px; line-height: 1.5; color: rgb(89, 89, 89); letter-spacing: 1px; text-indent: 30px; box-sizing: border-box !important; word-wrap: break-word !important;'>请在把这里替换成引用</section></section></section>"
+
+                ]
+            },
+            "list": {
+                "name": "列表",
+                "code" : [
+                "<p style='line-height: 1.5em;margin-top:10px;margin-bottom:10px;'><span style='font-size: 14px; color: rgb(63, 63, 63);'><span style='color: rgb(63, 63, 63); font-size: 14px;'><span style='color: rgb(255, 255, 255); font-size: 14px; line-height: 16px; margin: 0px 10px 0px 0px; padding: 0px; max-width: 100%; display: inline-block; height: 16px; width: 16px; text-align: center; border-radius: 16px; box-sizing: border-box !important; word-wrap: break-word !important; background: rgb(239, 95, 0);'>1</span>请把这里替换成列表内容</span><span style=''></span></span></p>"
+
+                ]
+            },
+            "text": {
+                "name": "正文",
+                "code" : [
+                "<p style='line-height:1.5;margin-top:10px;margin-bottom:10px;'><span style='margin: 0px; padding: 0px; max-width: 100%; font-size: 14px; color: rgb(63, 63, 63); box-sizing: border-box !important; word-wrap: break-word !important;'>请把这里替换成正文</span></p>"
+
+                ]
+            },
+            "border": {
+                "name": "边框",
+                "code" : [
+                "<section style='border:1px solid rgb(63,63,63);padding:10px 10px;'><p style='line-height:1.5;margin-top:10px;margin-bottom:10px;'><span style='margin: 0px; padding: 0px; max-width: 100%; font-size: 14px; color: rgb(63, 63, 63); box-sizing: border-box !important; word-wrap: break-word !important;'>请把这里替换成正文</span></p></section>"
+
+                ]
+            },
+            "color": {
+                "name": "变色",
+                "code" : [
+                "<p style='line-height:1.5;margin-top:10px;margin-bottom:10px;'><span style='margin: 0px; padding: 0px; max-width: 100%; font-size: 14px; color: #EF5F00; box-sizing: border-box !important; word-wrap: break-word !important;'>请把这里替换成正文</span></p>"
+
+                ]
+            },
+            "链接": {
+                "name": "按钮",
+                "input": [{
+                    "key": "href",
+                    "name": "链接地址"
+                }, {
+                    "key": "name",
+                    "name": "文本内容"
+                }],
+                "code" : [
+                "<p style='white-space: normal;'><span style='margin: 0px; padding: 0px; max-width: 100%; color: rgb(63, 63, 63); box-sizing: border-box !important; word-wrap: break-word !important;'><a href='[^href^]' target='_blank' data_ue_src='[^href^]' style='display: block; text-align: center; text-decoration: none; color: rgb(255, 255, 255); height: 40px; line-height: 40px; border-radius: 2px; background: rgb(239, 95, 0);'>[^name^]</a></span></p>"
+
+                ]
+            },
+            "line": {
+                "name": "分割",
+                "code" : [
+                "<p style='line-height: 1.5em;margin-top:20px;margin-bottom:20px;'><span style='font-size: 14px; color: #EF5F00;border: 1px solid #EF5F00;margin-bottom: 15px;display: block;text-align: center;border-width: 1px 0 3px;'>华丽丽的分割线</span></p>"
+
+                ]
+            },
+            "footer": {
+                "name": "尾部",
+                "code" : [
+                "<section style='white-space: normal; margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; border: 0px; word-wrap: break-word !important;'><section style='margin: 1em 0px 2px; padding: 0px; max-width: 100%; box-sizing: border-box; border-top-style: solid; border-top-width: 1px; border-color: rgb(160, 160, 160); word-wrap: break-word !important;'></section><section style='margin: 2px 0px 1em; padding: 0px; max-width: 100%; box-sizing: border-box; border-top-style: solid; border-top-width: 2px; border-color: rgb(160, 160, 160); word-wrap: break-word !important;'></section></section><section style='white-space: normal; margin: 10px 0px; padding: 0px; max-width: 100%; line-height: 1.5em; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important;'><span style='margin: 0px; padding: 0px; max-width: 100%; color: rgb(63, 63, 63); font-size: 14px; box-sizing: border-box !important; word-wrap: break-word !important;'>「一起吃」是什么？</span></section><section style='white-space: normal; margin: 5px 0px 10px; padding: 0px; max-width: 100%; line-height: 1.5em; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important;'><span style='margin: 0px; padding: 0px; max-width: 100%; font-size: 11px; color: rgb(239, 95, 0); box-sizing: border-box !important; word-wrap: break-word !important;'>「一起吃」向您提供私家美食。</span><span style='margin: 0px; padding: 0px; max-width: 100%; font-size: 11px; box-sizing: border-box !important; word-wrap: break-word !important;'><br style='margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;'>我们集聚民间大厨。<br style='margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;'>他们诚心，创意和感情<br style='margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;'>为你寻找一流食材<br style='margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;'>制作手工美食</span></section><p style='margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; min-height: 1em; white-space: pre-wrap; box-sizing: border-box !important; word-wrap: break-word !important;text-align:center;'><img data-s='300,640' data-type='png' data-src='http://mmbiz.qpic.cn/mmbiz/bej1qW4AZ1UjicgZ25JKcicHxVRz1n9s9wuBTibZvt2t08ZE1MoMAa6H1UwCVKDQGNf4ABt4Qv17VCwKElzWB9t8A/640?tp=webp&wxfrom=5' data-ratio='0.5525812619502868' data-w='' src='http://mmbiz.qpic.cn/mmbiz/bej1qW4AZ1UjicgZ25JKcicHxVRz1n9s9wuBTibZvt2t08ZE1MoMAa6H1UwCVKDQGNf4ABt4Qv17VCwKElzWB9t8A/640?tp=webp&wxfrom=5' style='width: auto !important; visibility: visible !important; height: auto !important;'><section style='margin: 5px 0px 10px; padding: 0px; max-width: 100%; line-height: 1.5em; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important;'><p style='margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; min-height: 1em; white-space: pre-wrap; box-sizing: border-box !important; word-wrap: break-word !important;'><span style='margin: 0px; padding: 0px; max-width: 100%; font-size: 11px; box-sizing: border-box !important; word-wrap: break-word !important;'>长按扫码关注，</span></p><p style='margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; min-height: 1em; white-space: pre-wrap; box-sizing: border-box !important; word-wrap: break-word !important;'><span style='margin: 0px; padding: 0px; max-width: 100%; font-size: 11px; box-sizing: border-box !important; word-wrap: break-word !important;'>据不完全统计，很多人关注<span style='color:#EF5F00;'>「一起吃」</span>后，</span></p><p style='margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; min-height: 1em; white-space: pre-wrap; box-sizing: border-box !important; word-wrap: break-word !important;'><span style='margin: 0px; padding: 0px; max-width: 100%; font-size: 11px; box-sizing: border-box !important; word-wrap: break-word !important;color:#Ef5F00'>都被喜欢的人喊去一起吃饭了呢</span></p></section></p>"
+
+                ]
+            }
+        }
