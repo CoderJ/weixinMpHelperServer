@@ -4,41 +4,36 @@
                 "code":[
                     "<section style='margin: 10px 0px; padding: 0px 10px; font-weight: 400; font-size: 16px; max-width: 100%; white-space: normal; font-family: 微软雅黑; border-width: 0px 0px 0px 2px; color: #EF5F00; border-color: #EF5F00; border-style: solid; line-height: 1.5em; -webkit-font-smoothing: antialiased; box-sizing: border-box !important; word-wrap: break-word !important; outline: none; position: relative;'>这里是标题<i class='wxmh_cursor'></i></section>",
                     "<section style='border: 0px; margin: 0.8em 0px 0.5em; text-align: center; clear: both; box-sizing: border-box; padding: 0px; outline: none; position: relative;'><section style='display: inline-block; padding: 0.2em 0.5em 0.15em; font-size: 2em; margin: 0px auto; border-left-width: 1px; border-left-style: solid; border-color: #EF5F00; border-right-width: 1px; border-right-style: solid; font-family: inherit; font-weight: bolder; text-decoration: inherit; color: #EF5F00; box-sizing: border-box; background-color: rgba(255, 255, 255, 0.992157);'><section style='font-size: 0.8em; line-height: 1em; vertical-align: top; font-family: inherit; font-weight: inherit; text-decoration: inherit; box-sizing: border-box;'><section style='box-sizing: border-box;'>上方标题字多一点</section></section><section style='margin-top: 0.2em; line-height: 1; box-sizing: border-box;'><section style='display: inline-block; padding: 0px 0.5em; font-weight: bolder; font-family: inherit; box-sizing: border-box; background-color: rgba(255, 255, 254, 0.992157);'><section style='box-sizing: border-box;'>主标题</section></section><section style='margin-top: -0.5em; margin-bottom: 0.5em; border-bottom-width: 1px; border-bottom-style: solid; border-color: #EF5F00; box-sizing: border-box;'></section></section></section></section>",
-                    "<fieldset style='border: 0px; display: block; margin: 0.8em 0px 0.5em; line-height: 1; overflow: hidden; box-sizing: border-box; padding: 0px;'><section style='border-bottom-style: solid; border-bottom-width: 1px; border-color: #EF5F00; font-size: 1.4em; font-family: inherit; font-weight: inherit; text-align: inherit; text-decoration: inherit; color: rgb(255, 255, 255); box-sizing: border-box;'><section style='display: inline-block; height: 1.2em; padding: 0.1em; line-height: 1em; font-size: 1.4em; font-family: inherit; box-sizing: border-box; background-color: #EF5F00;'><section style='box-sizing: border-box;'>请</section></section><section style='display: inline-block; padding: 0.2em; line-height: 1; font-size: 1em; font-family: inherit; font-weight: inherit; text-align: inherit; text-decoration: inherit; color:#EF5F00; box-sizing: border-box;'><section style='box-sizing: border-box;'>输入标题</section></section></section></fieldset>"
+                    "<section style='border: 0px; display: block; margin: 0.8em 0px 0.5em; line-height: 1; overflow: hidden; box-sizing: border-box; padding: 0px;'><section style='border-bottom-style: solid; border-bottom-width: 1px; border-color: #EF5F00; font-size: 1.4em; font-family: inherit; font-weight: inherit; text-align: inherit; text-decoration: inherit; color: rgb(255, 255, 255); box-sizing: border-box;'><section style='display: inline-block; height: 1.2em; padding: 0.1em; line-height: 1em; font-size: 1.4em; font-family: inherit; box-sizing: border-box; background-color: #EF5F00;'><section style='box-sizing: border-box;'>请</section></section><section style='display: inline-block; padding: 0.2em; line-height: 1; font-size: 1em; font-family: inherit; font-weight: inherit; text-align: inherit; text-decoration: inherit; color:#EF5F00; box-sizing: border-box;'><section style='box-sizing: border-box;'>输入标题</section></section></section></section>"
                   ]
             },
             "quote": {
                 "name": "引用",
                 "code" : [
-                "<section style=''><section style='margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; background-image: url(http://mmbiz.qpic.cn/mmbiz/HOZE1XLnBLS61ZWZRL2fm4mqvN7CKtjtYSxMg3uEoVvoVzOWe5eiaxU0UaosuUJRjQyxmiacst2WYlgMo2B9iawibQ/0); background-color: rgb(250, 250, 250); background-size: 30px 30px; background-position: 10px 6px; background-repeat: no-repeat;'><section style='margin: 0px; padding: 15px; max-width: 100%; font-size: 14px; line-height: 1.5; color: rgb(89, 89, 89); letter-spacing: 1px; text-indent: 30px; box-sizing: border-box !important; word-wrap: break-word !important;'>请在把这里替换成引用</section></section></section>"
+                "<section style=''><section style='margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; background-image: url(http://mmbiz.qpic.cn/mmbiz/HOZE1XLnBLS61ZWZRL2fm4mqvN7CKtjtYSxMg3uEoVvoVzOWe5eiaxU0UaosuUJRjQyxmiacst2WYlgMo2B9iawibQ/0); background-color: rgb(250, 250, 250); background-size: 30px 30px; background-position: 10px 6px; background-repeat: no-repeat;'><section style='margin: 0px; padding: 15px; max-width: 100%; font-size: 14px; line-height: 1.5; color: rgb(89, 89, 89); letter-spacing: 1px; text-indent: 30px; box-sizing: border-box !important; word-wrap: break-word !important;'>请在把这里替换成引用</section></section></section>",
+                "<section style='border: 0px; margin: 0.8em 0px 0px; box-sizing: border-box; padding: 10px; outline: none; position: relative; background: rgb(250, 250, 250);'><span style='float: left; padding: 0 0.2em 0 0; font-size: 2.5em; line-height: 1.2; font-family: inherit; font-weight: inherit; text-align: inherit; text-decoration: inherit; color: inherit; box-sizing: border-box;'><section style='box-sizing: border-box;color: #Ef5f00;'>请</section></span><span style='font-size: 1em; font-family: inherit; font-weight: inherit; text-align: inherit; text-decoration: inherit; color: inherit; box-sizing: border-box;'><section style='box-sizing: border-box;color: rgb(63, 63, 63);line-height: 1.5;'>输入文字请输入文字请输入文字请输入文字请输入文字请输入文字请输入文字请输入文字请输入文字请输入文字请输入文字请输入文字</section></span></section>"
 
                 ]
             },
             "list": {
                 "name": "列表",
                 "code" : [
-                "<p style='line-height: 1.5em;margin-top:10px;margin-bottom:10px;'><span style='font-size: 14px; color: rgb(63, 63, 63);'><span style='color: rgb(63, 63, 63); font-size: 14px;'><span style='color: rgb(255, 255, 255); font-size: 14px; line-height: 16px; margin: 0px 10px 0px 0px; padding: 0px; max-width: 100%; display: inline-block; height: 16px; width: 16px; text-align: center; border-radius: 16px; box-sizing: border-box !important; word-wrap: break-word !important; background: #EF5F00;'>1</span>请把这里替换成列表内容</span><span style=''></span></span></p>"
+                "<p style='line-height: 1.5em;margin-top:10px;margin-bottom:10px;'><span style='font-size: 14px; color: rgb(63, 63, 63);'><span style='color: rgb(63, 63, 63); font-size: 14px;'><span style='color: rgb(255, 255, 255); font-size: 14px; line-height: 16px; margin: 0px 10px 0px 0px; padding: 0px; max-width: 100%; display: inline-block; height: 16px; width: 16px; text-align: center; border-radius: 16px; box-sizing: border-box !important; word-wrap: break-word !important; background: #EF5F00;'>1</span>请把这里替换成列表内容</span><span style=''></span></span></p>",
+                "<section style='border: 0px #EF5F00; font-size: 1em; font-family: inherit; font-weight: inherit; text-decoration: inherit; box-sizing: border-box; padding: 0px; outline: none; position: relative;' ><section style='width: 95%; margin-left: 5%; box-sizing: border-box;' ><section style='display: inline-block; float: left; width: 1em; height: 1em; margin: 1em 0px -2em -0.5em; border: 1px solid #EF5F00; border-radius: 100%; box-sizing: border-box; background-color: rgb(255, 255, 255);' ></section><section style='box-sizing: border-box;' ><section style='border-left-width: 1px; border-left-style: solid; border-color: #EF5F00; height: 1.2em; box-sizing: border-box;' ></section><section style='border-left-width: 1px; border-left-style: solid; border-color: #EF5F00; box-sizing: border-box;' ><section style='clear: both; margin: -0.4em 0px 0px 1.2em; padding-bottom: 0.2em; box-sizing: border-box;' ><section style='box-sizing: border-box;'>请输入文字请输入文字请</section></section></section></section></section></section>"
 
                 ]
             },
             "text": {
                 "name": "正文",
                 "code" : [
-                "<p style='line-height:1.5;margin-top:10px;margin-bottom:10px;'><span style='margin: 0px; padding: 0px; max-width: 100%; font-size: 14px; color: rgb(63, 63, 63); box-sizing: border-box !important; word-wrap: break-word !important;'>请把这里替换成正文</span></p>"
-
+                "<p style='line-height:1.5;margin-top:10px;margin-bottom:10px;'><span style='margin: 0px; padding: 0px; max-width: 100%; font-size: 14px; color: rgb(63, 63, 63); box-sizing: border-box !important; word-wrap: break-word !important;'>请把这里替换成正文</span></p>",
+                "<p style='line-height:1.5;margin-top:10px;margin-bottom:10px;'><span style='margin: 0px; padding: 0px; max-width: 100%; font-size: 14px; color: #EF5F00; box-sizing: border-box !important; word-wrap: break-word !important;'>请把这里替换成正文</span></p>"
                 ]
             },
             "border": {
                 "name": "边框",
                 "code" : [
                 "<section style='border:1px solid rgb(63,63,63);padding:10px 10px;'><p style='line-height:1.5;margin-top:10px;margin-bottom:10px;'><span style='margin: 0px; padding: 0px; max-width: 100%; font-size: 14px; color: rgb(63, 63, 63); box-sizing: border-box !important; word-wrap: break-word !important;'>请把这里替换成正文</span></p></section>"
-
-                ]
-            },
-            "color": {
-                "name": "变色",
-                "code" : [
-                "<p style='line-height:1.5;margin-top:10px;margin-bottom:10px;'><span style='margin: 0px; padding: 0px; max-width: 100%; font-size: 14px; color: #EF5F00; box-sizing: border-box !important; word-wrap: break-word !important;'>请把这里替换成正文</span></p>"
 
                 ]
             },
@@ -59,7 +54,8 @@
             "line": {
                 "name": "分割",
                 "code" : [
-                "<p style='line-height: 1.5em;margin-top:20px;margin-bottom:20px;'><span style='font-size: 14px; color: #EF5F00;border: 1px solid #EF5F00;margin-bottom: 15px;display: block;text-align: center;border-width: 1px 0 3px;'>华丽丽的分割线</span></p>"
+                "<p style='line-height: 1.5em;margin-top:20px;margin-bottom:20px;'><span style='font-size: 14px; color: #EF5F00;border: 1px solid #EF5F00;margin-bottom: 15px;display: block;text-align: center;border-width: 1px 0 3px;'>华丽丽的分割线</span></p>",
+                "<section style='border: 0px; box-sizing: border-box; padding: 0px; outline: none; position: relative;'><section style='margin: 0.5em 0px 2px; border-top-style: solid; border-top-width: 1px; border-color: #EF5F00; box-sizing: border-box;'></section><section style='margin: 2px 0px 0.5em; border-top-style: solid; border-top-width: 2px; border-color: #EF5F00; box-sizing: border-box;'></section></section>"
 
                 ]
             },
