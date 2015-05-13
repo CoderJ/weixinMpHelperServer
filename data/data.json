@@ -43,7 +43,7 @@
                 ]
             },
             "href": {
-                "name": "按钮",
+                "name": "链接",
                 "input": [{
                     "key": "href",
                     "name": "链接地址"
