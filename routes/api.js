@@ -5,10 +5,12 @@ var http = require('http');
 var iconv = require('iconv-lite');
 /* GET home page. */
 router.get('/list/', function(req, res) {
+  res.set('Content-Type', 'application/json');
   res.send(data);
 });
 
 router.get('/money/', function(req, res) {
+    res.set('Content-Type', 'application/json');
     var num = req.query.num || '000729';
     var url = '/js/'+num+'.js?rt='+new Date().getTime();
 
@@ -27,7 +29,7 @@ router.get('/money/', function(req, res) {
             var str = iconv.decode(buf, 'GBK');
 
 
-            
+
             s = str.replace(/^jsonpgz\((.*)\)\;/g,'$1');
             res.send(s);
         });
