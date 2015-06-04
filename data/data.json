@@ -34,7 +34,8 @@
             "border": {
                 "name": "边框",
                 "code" : [
-                "<section style='border:1px solid rgb(63,63,63);padding:10px 10px;'><p style='line-height:1.5;margin-top:10px;margin-bottom:10px;'><span style='margin: 0px; padding: 0px; max-width: 100%; font-size: 14px; color: rgb(63, 63, 63); box-sizing: border-box !important; word-wrap: break-word !important;'>请把这里替换成正文</span></p></section>"
+                "<section style='border:1px solid rgb(63,63,63);padding:10px 10px;'><p style='line-height:1.5;margin-top:10px;margin-bottom:10px;'><span style='margin: 0px; padding: 0px; max-width: 100%; font-size: 14px; color: rgb(63, 63, 63); box-sizing: border-box !important; word-wrap: break-word !important;'>请把这里替换成正文</span></p></section>",
+                "<section style='border:1px solid #EF5F00;padding:10px 10px;'><p style='line-height:1.5;margin-top:10px;margin-bottom:10px;'><span style='margin: 0px; padding: 0px; max-width: 100%; font-size: 14px; color: rgb(63, 63, 63); box-sizing: border-box !important; word-wrap: break-word !important;'>请把这里替换成正文</span></p></section>"
 
                 ]
             },
