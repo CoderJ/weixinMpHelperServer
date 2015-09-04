@@ -1,8 +1,23 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	font-family: NotoSansHans-Regular, AvenirNext-Regular, proxima-nova, 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+	position:relative; 
 }
 
-a {
-  color: #00B7FF;
+
+* {
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  line-height: 2;
+}
+p {
+	margin: 1em 0;
+}
+h4{
+	color:#563d7c;
+}
+ol, ul{
+	padding-left: 20px;
+}
+.title{
+	color:#563d7c;
 }
