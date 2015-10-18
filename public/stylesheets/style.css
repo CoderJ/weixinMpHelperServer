@@ -1,23 +1,275 @@
-body {
-	font-family: NotoSansHans-Regular, AvenirNext-Regular, proxima-nova, 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-	position:relative; 
+
+body{
+	margin: 0;
+	padding:0;
+	text-align: center;
+}
+*{
+	box-sizing:border-box;
+	font-family: "Myriad Pro", NotoSansHans-Regular, AvenirNext-Regular, proxima-nova, 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+
+}
+header{
+	width: 100%;
+	height:501px;
+	background-color: #FCFCFC;
+	background-image: url('/images/header_bg.png');
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center;
+	position: relative;
+	border-bottom: 1px solid #f599ad;
+	text-align: left;
+}
+header .logo{
+	width: 203px;
+	height: 50px;
+	position: absolute;
+	top: 20px;
+	left: 50%;
+	margin-left: -473px;
+	background-image: url('/images/logo.png');
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center;
+	display: block;
+	font-size: 0;
+}
+header .content{
+	position: absolute;
+	width: 551px;
+	top: 125px;
+	left: 50%;
+	margin-left: 61px;
+}
+header .content h1{
+  font-size: 54px;
+  color: rgb(51, 51, 51);
+  font-weight: 650;
+  font-style: italic;
+  margin: 0;
+}
+header .content p{
+  font-size: 22px;
+  color: rgb(51, 51, 51);
+  line-height: 1.545;
+  margin: 8px 0 0 0;
+}
+ header .content .download{
+ 	margin-top: 48px;
+ }
+
+ header .content .download .download_btn:hover{
+ 	background-color: #454545;
+}
+.download_btn{
+ 	display: inline-block;
+ 	margin-right: 30px;
+ 	width: 171px;
+ 	height: 54px;
+ 	background-color: #333333;
+ 	border-radius: 6px;
+ 	transition:all 0.5s;
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+ 	background-size: auto 100%;
+}
+.mob-download{
+	padding-top: 20px;
+	display: none;
+}
+.mob-download .download_btn{
+ 	margin-left: 30px;
+}
+.mob-download .download_btn:hover{
+ 	background-color: #454545;
+}
+.gp_btn{
+	background-image: url('/images/gp_btn.png');
+}
+.as_btn{
+	background-image: url('/images/as_btn.png');
+}
+.feature{
+	margin: 0 auto;
+	max-width: 1146px;
+	font-size: 0;
+	text-align: left;
+}
+.feature .block{
+	font-size: 14px;
+	display: inline-block;
+	width: 50%;
+	height: 628px;
+	vertical-align: middle;
+}
+.feature .text-block{
+	padding:200px 61px;
+}
+.feature .text-block h2{
+  font-size: 32px;
+  color: rgb(230, 0, 51);
+  line-height: 1.063;
+}
+
+.feature .text-block p{
+  font-size: 20px;
+  color: rgb(51, 51, 51);
+  line-height: 1.5;
+}
+.feature .pic-block{
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.feature .mob-pic-block{
+	display: none;
+}
+.feature .pic-block-1{
+	background-image: url('/images/feature_1.png');
+}
+.feature .pic-block-2{
+	background-image: url('/images/feature_2.png');
+}
+.feature .pic-block-3{
+	background-image: url('/images/feature_3.png');
+}
+
+@media screen and (max-width: 1024px) {
+
+	header{
+		width: 100%;
+		height: auto;
+		background-color: #FCFCFC;
+		background-image: url('/images/mob_header_bg.png');
+		background-repeat: no-repeat;
+		background-size: auto 100%;
+		background-position: -120px 0;
+		position: relative;
+		border-bottom: 1px solid #f599ad;
+		text-align: left;
+		padding: 20px;
+	}
+	header .logo{
+		width: 203px;
+		height: 50px;
+		position: relative;
+		top: 0;
+		left: 0;
+		margin-left: 0px;
+		background-image: url('/images/logo.png');
+		background-repeat: no-repeat;
+		background-size: auto 100%;
+		background-position: center;
+		display: block;
+		font-size: 0;
+	}
+	header .content{
+		position: relative;
+		width: auto;
+		top: 0;
+		left: 0;
+		margin-left: 0;
+		margin-left: 260px;
+		margin-top: 40px;
+		margin-bottom: 5%;
+	}
+	header .content .download{
+		display: none;
+	}
+	.mob-download{
+		display: block;
+	}
+    .feature .block{
+    	display: block;
+    	width: 100%;
+    	height: auto;
+    }
+	.feature .mob-pic-block{
+		display: block;
+		padding:40px;
+		text-align: center;
+	}
+	.feature .mob-pic-block img{
+		width: 100%;
+		max-width: 400px;
+	}
+    .feature .pic-block{
+    	background-image: none;
+	}
+	.feature .text-block{
+		padding:20px 40px;
+		text-align: center;
+	}
+	.feature .text-block h2{
+	  font-size: 32px;
+	  color: rgb(230, 0, 51);
+	  line-height: 1.063;
+	}
+
+	.feature .text-block p{
+	  font-size: 20px;
+	  color: rgb(51, 51, 51);
+	  line-height: 1.5;
+	}
+}
+
+@media screen and (max-width: 760px) {
+	header{
+		width: 100%;
+		height: auto;
+		background-color: #FCFCFC;
+		background-image: url('/images/mob_header_bg.png');
+		background-repeat: no-repeat;
+		background-size: auto 100%;
+		background-position: center;
+		position: relative;
+		border-bottom: 1px solid #f599ad;
+		text-align: left;
+		padding: 20px;
+	}
+	header .logo{
+		width: 102px;
+		height: 25px;
+		position: relative;
+		top: 0;
+		left: 0;
+		margin-left: 0px;
+		background-image: url('/images/logo.png');
+		background-repeat: no-repeat;
+		background-size: auto 100%;
+		background-position: center;
+		display: block;
+		font-size: 0;
+	}
+	header .content{
+		text-align: left;
+		display: block;
+		margin: 20px 10px 0px 10px;
+		margin-left: 30%;
+	}
+	header .content h1{
+				font-size: 28px;
+
+	}
+	header .content p{
+		font-size: 12px;
+	}
+	.download_btn{
+	 	display: inline-block;
+	 	margin-right: 15px;
+	 	margin-left: 15px;
+	 	width: 171px;
+	 	height: 54px;
+	 	background-color: #333333;
+	 	border-radius: 6px;
+	 	transition:all 0.5s;
+	 	background-repeat: no-repeat;
+	 	background-position: center;
+	}
+
 }
 
 
-* {
-  font-weight: 100;
-  -webkit-font-smoothing: antialiased;
-  line-height: 2;
-}
-p {
-	margin: 1em 0;
-}
-h4{
-	color:#E60033;
-}
-ol, ul{
-	padding-left: 20px;
-}
-.title{
-	color:#E60033;
+.as_btn{
+	display: none;
 }

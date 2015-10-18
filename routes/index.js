@@ -14,5 +14,8 @@ router.get('/app', function(req, res) {
 router.get('/privacy', function(req, res) {
   res.render('privacy');
 });
+router.get('/joinus', function(req, res) {
+  res.render('joinus');
+});
 
 module.exports = router;
